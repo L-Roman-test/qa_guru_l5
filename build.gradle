@@ -12,9 +12,9 @@ repositories {
 
 allure {
     autoconfigure = true
-    version = "2.13.8"
+    version = "2.13.6"
     useJUnit5 {
-        version = "2.13.8"
+        version = "2.13.6"
     }
 }
 
@@ -24,7 +24,7 @@ test {
 
 dependencies {
     compile("com.codeborne:selenide:5.18.0")
-    compile("io.qameta.allure:allure-selenide:2.13.8")
+    compile("io.qameta.allure:allure-selenide:2.13.6")
 
     compile("org.junit.jupiter:junit-jupiter-api:5.7.0")
     compile("org.junit.jupiter:junit-jupiter-engine:5.7.0")
