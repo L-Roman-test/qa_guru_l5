@@ -6,3 +6,4 @@ gradlew
 .idea/
 /gradle/
 /.idea/
+/build/
